@@ -142,6 +142,7 @@
             this.btnReset.TabIndex = 2;
             this.btnReset.Text = "&Reset";
             this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // btnAccept
             // 
@@ -160,6 +161,7 @@
             this.btnPrice.TabIndex = 0;
             this.btnPrice.Text = "&Price";
             this.btnPrice.UseVisualStyleBackColor = true;
+            this.btnPrice.Click += new System.EventHandler(this.btnPrice_Click);
             // 
             // grpPayment
             // 
@@ -641,7 +643,6 @@
             this.mtxPhoneEntry.Name = "mtxPhoneEntry";
             this.mtxPhoneEntry.Size = new System.Drawing.Size(82, 20);
             this.mtxPhoneEntry.TabIndex = 1;
-            // 
             // tmrDateTimeSource
             // 
             this.tmrDateTimeSource.Tick += new System.EventHandler(this.tmrDateTimeSource_Tick);
